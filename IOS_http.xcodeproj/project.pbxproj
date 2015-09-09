@@ -14,6 +14,7 @@
 		F18915DB1B9FF4ED00E6B951 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F18915DA1B9FF4ED00E6B951 /* Images.xcassets */; };
 		F18915DE1B9FF4ED00E6B951 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F18915DC1B9FF4ED00E6B951 /* LaunchScreen.xib */; };
 		F18915EA1B9FF4ED00E6B951 /* IOS_httpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F18915E91B9FF4ED00E6B951 /* IOS_httpTests.m */; };
+		F18915F61B9FF52D00E6B951 /* RefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F18915F51B9FF52D00E6B951 /* RefreshViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		F18915E31B9FF4ED00E6B951 /* IOS_httpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOS_httpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F18915E81B9FF4ED00E6B951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F18915E91B9FF4ED00E6B951 /* IOS_httpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOS_httpTests.m; sourceTree = "<group>"; };
+		F18915F41B9FF52D00E6B951 /* RefreshViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshViewController.h; sourceTree = "<group>"; };
+		F18915F51B9FF52D00E6B951 /* RefreshViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		F18915CC1B9FF4ED00E6B951 /* IOS_http */ = {
 			isa = PBXGroup;
 			children = (
+				F18915F31B9FF4F900E6B951 /* 刷流量 */,
 				F18915D11B9FF4ED00E6B951 /* AppDelegate.h */,
 				F18915D21B9FF4ED00E6B951 /* AppDelegate.m */,
 				F18915D41B9FF4ED00E6B951 /* ViewController.h */,
@@ -117,6 +121,15 @@
 				F18915E81B9FF4ED00E6B951 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F18915F31B9FF4F900E6B951 /* 刷流量 */ = {
+			isa = PBXGroup;
+			children = (
+				F18915F41B9FF52D00E6B951 /* RefreshViewController.h */,
+				F18915F51B9FF52D00E6B951 /* RefreshViewController.m */,
+			);
+			name = "刷流量";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F18915F61B9FF52D00E6B951 /* RefreshViewController.m in Sources */,
 				F18915D61B9FF4ED00E6B951 /* ViewController.m in Sources */,
 				F18915D31B9FF4ED00E6B951 /* AppDelegate.m in Sources */,
 				F18915D01B9FF4ED00E6B951 /* main.m in Sources */,
